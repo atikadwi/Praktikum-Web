@@ -1,0 +1,136 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+div.menu{
+  width: 100%;
+  background: #4682B4;
+}
+div.menu ul{
+  list-style-type: none; /* menghilangkan bulet pada list */
+  overflow: hidden; /* menghilangkan scroll bar */
+  padding: 0; /* jarak antara border dgn konten (jarak dalam)*/
+  margin: 0; /* jarak antara tiap elemen (jarak luar)*/
+}
+div.menu li{
+  float: right; /* posisi elemen atau seperti align */
+}
+div.menu li a{
+  text-decoration: none; /* menghilangkan garis bawah pada link */
+  color: white; /* warna font pada link (putih) */
+  text-align: center; /* rata tengah teks */
+  padding: 18px 20px; /* 18=top&bottom , 20=right,left */
+  font-size: 20px;
+  display: block; /* menampilkan elemen */
+}
+div.menu li a:hover{ /* mouseover -> ketika mouse meraba elemen */
+  background: #fff;
+  color: #4682B4;
+  border: 2px solid #4682B4; /* 2px=tebalnya, solid=tipe garis, red=warna border */
+}
+
+div.header{
+  width: 100%;
+  height: 650px;
+  background-image: url("taman.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 0;
+}
+
+div.bayangan{
+  width: 100%;
+  height: 500px;
+  background: #000;
+  opacity: 0.4;
+  float: left;
+}
+
+div.header h1{
+  text-align: center;
+  font-size: 40px;
+  font-weight: bolder;
+  font-family: inherit;
+  left : 500px;
+  top : 125px;
+  position: absolute;
+  color: #fff;
+}
+
+div.header img{
+  width: 130px;
+  height: auto;
+  margin-top: 20px;
+}
+
+div.about{
+  width: 100%;
+  height: 400px;
+  padding: 0;
+  margin-top: 20px;
+  float: left;
+}
+
+div.left{
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+div.about .left h1{
+  text-align: right;
+  text-transform: uppercase; /*huruf kapital*/
+  font-size: 60px;
+  font-family: "sans-serif";
+  font-weight: 20;
+  padding-right: 10px;
+  margin-top: 75px;
+}
+
+div.about .left p{
+  text-align: right;
+  font-size: 20px;
+  color: gray;
+}
+
+div.about. .right{
+  width: 50%;
+  height: 100%;
+  float: right;
+}
+
+div.about .right img{
+  width: 500px;
+  height: auto;
+  margin-top: 55px;
+  margin-left: 40px;
+}
+
+div.wisata h2{
+  text-align: center;
+  font-size: 30px;
+font-family: Bahnschrift;
+
+}
+
+div.box{
+  display:inline-block;
+  width: 400px;
+  float: left;
+  border: 2px solid #ddd;
+  margin: 22px ;
+
+
+}
+div.box img{
+  width: 400px;
+  height: 250px;
+
+}
+div.box:hover{
+  border: 3px solid #000;
+}
+div.box div.deskripsi{
+  padding:15px;
+  text-align:center;
+}
